@@ -1,0 +1,110 @@
+.h1{
+    text-align:center;
+    color:red;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-item{
+    color:black;
+    justify-content:flex-start
+}
+.nav-about{
+    color:green;
+    justify-content:flex-end;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.search-bar {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+.search-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+.nav-right a {
+    color: black;
+    text-decoration: none;
+}
+.nav-right a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    display: flex;
+    margin: 20px;
+}
+.left-panel {
+    flex: 1;
+    padding: 10px;
+}
+.items-container {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cart-container {
+    flex: 1;
+    margin-left: 20px;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.item button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+#confirm-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+#confirm-button:hover {
+    background-color: #aad4e5;
+}
+
